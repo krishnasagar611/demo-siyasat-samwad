@@ -1,5 +1,6 @@
 const { createServer } = require('http');
 const { parse } = require('url');
+require('dotenv').config();
 const next = require('next');
 const fs = require('fs');
 const path = require('path');
