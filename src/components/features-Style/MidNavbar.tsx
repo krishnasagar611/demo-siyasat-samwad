@@ -2,14 +2,13 @@ import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { Card, ListGroup } from 'react-bootstrap'
-import { FaNewspaper } from 'react-icons/fa'
+import { Card, Container, Row, Col } from 'react-bootstrap'
+import { FaFacebook, FaTwitter, FaShareAlt, FaNewspaper } from 'react-icons/fa'
 import { selectCurrentLanguage } from '../../store/reducers/languageReducer'
 import { AllBreakingNewsApi } from 'src/hooks/allBreakingNewsApi'
 import { getLanguage } from 'src/utils/api'
 import { useQuery } from '@tanstack/react-query'
 import { placeholderImage, translate } from '../../utils'
-// import  from '../../../public/assets/images/no_image.jpeg'
 
 const BreakingNewsSidebar = () => {
   const router = useRouter()
@@ -21,7 +20,7 @@ const BreakingNewsSidebar = () => {
   const [breakingNewsData, setBreakingNewsData] = useState([])
   const [isLoading, setIsLoading] = useState(true)
 
-  const dataPerPage = 3 
+  const dataPerPage = 3
 
   const getBreakingNewsApi = async () => {
     setIsLoading(true)
@@ -52,48 +51,64 @@ const BreakingNewsSidebar = () => {
   }, [Data])
 
   return (
-    <Card style={{ width: '100%', padding: '10px' }}>
+    <div style={{ width: '100%' }}>
       <Card.Header className='d-flex align-items-center'>
-        <FaNewspaper style={{ marginRight: '10px' }} />
-        <span>{translate('breakingNewsLbl')}</span>
+        {/* <FaNewspaper style={{ marginRight: '10px' }} /> */}
+        {/* <span>{translate('breakingNewsLbl')}</span> */}
       </Card.Header>
-      <ListGroup variant='flush'>
-        {isLoading ? (
-          [...Array(dataPerPage)].map((_, index) => (
-            <ListGroup.Item key={index}>
-              <div className='placeholder-glow'>
-                <span className='placeholder col-12'></span>
-              </div>
-            </ListGroup.Item>
-          ))
-        ) : breakingNewsData && breakingNewsData.length > 0 ? (
-          breakingNewsData.map(element => (
-            <ListGroup.Item key={element.id}>
-              <Link
-                href={{ pathname: `/breaking-news/${element.slug}`, query: { language_id: element.language_id } }}
-                as={`/breaking-news/${element.slug}`}
-                style={{ textDecoration: 'none', color: 'inherit' }}
-              >
-                <div className=''>
-                  <img
+      {isLoading ? (
+        [...Array(dataPerPage)].map((_, index) => (
+          <Card className='mb-4' key={index}>
+            <Row noGutters>
+              <Col md={12}>
+                <div className='placeholder-glow'>
+                  <span className='placeholder col-12'></span>
+                </div>
+              </Col>
+            </Row>
+          </Card>
+        ))
+      ) : breakingNewsData && breakingNewsData.length > 0 ? (
+        breakingNewsData.map(element => (
+          <Link
+            href={{ pathname: `/breaking-news/${element.slug}`, query: { language_id: element.language_id } }}
+            as={`/breaking-news/${element.slug}`}
+            key={element.id}
+            passHref
+          >
+            <Card className='mb-4' key={element.id}>
+              <Row noGutters>
+                <Col md={12} className='position-relative'>
+                  <Card.Img
                     src={element.image ? element.image : '/assets/images/no_image.jpeg'}
                     alt='breaking news thumbnail'
-                   
                     onError={placeholderImage}
                   />
-                  <div>
-                    <h6 className='mb-0'>{element.title.slice(0, 50)}...</h6>
-                  </div>
-                </div>
-              </Link>
-            </ListGroup.Item>
-          ))
-        ) : (
-          <ListGroup.Item>No breaking news available</ListGroup.Item>
-        )}
-      </ListGroup>
-    </Card>
+                </Col>
+                <Col md={12}>
+                  <Card.Body>
+                    <Card.Title className='h5'>{element?.title.slice(0, 50)}...</Card.Title>
+                    <Card.Text dangerouslySetInnerHTML={{ __html: element.description.slice(0, 100) }} />
+                    <Row>
+                      <Col className='text-right'>
+                        <FaFacebook style={{ marginRight: '10px', cursor: 'pointer' }} />
+                        <FaTwitter style={{ marginRight: '10px', cursor: 'pointer' }} />
+                        <FaShareAlt style={{ cursor: 'pointer' }} />
+                      </Col>
+                    </Row>
+                  </Card.Body>
+                </Col>
+              </Row>
+            </Card>
+          </Link>
+        ))
+      ) : (
+        <Card className='mb-4'>
+          <Card.Body>No breaking news available</Card.Body>
+        </Card>
+      )}
+    </div>
   )
-
 }
+
 export default BreakingNewsSidebar
