@@ -16,7 +16,7 @@ const Home = () => {
 
   return (
     <Layout>
-      <FeatureLayout />
+      {/* <FeatureLayout /> */}
       <Container>
         <Row>
           <Col md={3}>

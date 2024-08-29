@@ -19,7 +19,7 @@ const ArticleCard = () => {
   ]
 
   return (
-    <div style={{ width: '100%', padding: '10px', position: 'sticky', top: '0' }}>
+    <div style={{ width: '100%',height:"auto", padding: '10px', position: 'sticky', top: '0' }}>
       <Row xs={1} md={1} className='g-4'>
         {articles.map((article, index) => (
           <Col key={index}>

@@ -51,11 +51,7 @@ const BreakingNewsSidebar = () => {
   }, [Data])
 
   return (
-    <div style={{ width: '100%' }}>
-      <Card.Header className='d-flex align-items-center'>
-        {/* <FaNewspaper style={{ marginRight: '10px' }} /> */}
-        {/* <span>{translate('breakingNewsLbl')}</span> */}
-      </Card.Header>
+    <div style={{ width: '100%',paddingTop:"10px" }}>
       {isLoading ? (
         [...Array(dataPerPage)].map((_, index) => (
           <Card className='mb-4' key={index}>

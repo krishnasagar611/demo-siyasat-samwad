@@ -2,151 +2,151 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
     <loc>https://devserver.siyasatsamwad.com/404</loc>
-    <lastmod>2024-08-29T11:47:37.943Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.552Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/loading</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/rss</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://devserver.siyasatsamwad.com/bookmark</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/all-breaking-news</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/breaking-news/[slug]</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://devserver.siyasatsamwad.com/categories-news/[slug]</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <loc>https://devserver.siyasatsamwad.com/bookmark</loc>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/all-categories</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://devserver.siyasatsamwad.com/breaking-news/[slug]</loc>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/create-news</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/edit-news</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://devserver.siyasatsamwad.com/categories-news/[slug]</loc>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/live-news</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/manage-news</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/more-pages</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/more-pages/[slug]</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://devserver.siyasatsamwad.com/news-notification</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://devserver.siyasatsamwad.com/personal-notification</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/news/[slug]</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://devserver.siyasatsamwad.com/news-notification</loc>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://devserver.siyasatsamwad.com/personal-notification</loc>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/profile-update</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/tag/[slug]</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/user-based-categories</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/video-news-view/[slug]</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/view-all/[slug]</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/[slug]</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://devserver.siyasatsamwad.com/categories-news/sub-category/[slug]</loc>
-    <lastmod>2024-08-29T11:47:37.944Z</lastmod>
+    <lastmod>2024-08-29T12:24:30.553Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
