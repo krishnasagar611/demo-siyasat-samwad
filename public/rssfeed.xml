@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Your Blog name</title>
-        <link>https://devserver.siyasatsamwad.com</link>
+        <link>https://news-app-seven-lake.vercel.app/</link>
         <description>Your Blog description</description>
-        <lastBuildDate>Mon, 09 Sep 2024 07:51:28 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Sep 2024 09:11:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed for Node.js</generator>
         <image>
             <title>Your Blog name</title>
-            <url>https://devserver.siyasatsamwad.com/favicon.ico</url>
-            <link>https://devserver.siyasatsamwad.com</link>
+            <url>https://news-app-seven-lake.vercel.app//favicon.ico</url>
+            <link>https://news-app-seven-lake.vercel.app/</link>
         </image>
         <copyright>All rights reserved 2024</copyright>
         <item>
             <title><![CDATA[Sample Blog Post 2]]></title>
-            <link>https://devserver.siyasatsamwad.com/blog/sample-blog-post-2</link>
-            <guid>https://devserver.siyasatsamwad.com/blog/sample-blog-post-2</guid>
+            <link>https://news-app-seven-lake.vercel.app//blog/sample-blog-post-2</link>
+            <guid>https://news-app-seven-lake.vercel.app//blog/sample-blog-post-2</guid>
             <pubDate>Sun, 19 Feb 2023 18:30:00 GMT</pubDate>
             <description><![CDATA[This is the second sample blog post]]></description>
             <content:encoded><![CDATA[This is the second sample blog postt.]]></content:encoded>
@@ -24,8 +24,8 @@
         </item>
         <item>
             <title><![CDATA[Sample Blog Post 3]]></title>
-            <link>https://devserver.siyasatsamwad.com/blog/sample-blog-post-3</link>
-            <guid>https://devserver.siyasatsamwad.com/blog/sample-blog-post-3</guid>
+            <link>https://news-app-seven-lake.vercel.app//blog/sample-blog-post-3</link>
+            <guid>https://news-app-seven-lake.vercel.app//blog/sample-blog-post-3</guid>
             <pubDate>Sun, 19 Feb 2023 18:30:00 GMT</pubDate>
             <description><![CDATA[This is the 3 sample blog post]]></description>
             <content:encoded><![CDATA[This is the 3 sample blog postt.]]></content:encoded>
@@ -33,8 +33,8 @@
         </item>
         <item>
             <title><![CDATA[Sample Blog Post 1]]></title>
-            <link>https://devserver.siyasatsamwad.com/blog/sample-blog-post-1</link>
-            <guid>https://devserver.siyasatsamwad.com/blog/sample-blog-post-1</guid>
+            <link>https://news-app-seven-lake.vercel.app//blog/sample-blog-post-1</link>
+            <guid>https://news-app-seven-lake.vercel.app//blog/sample-blog-post-1</guid>
             <pubDate>Sat, 14 Jan 2023 18:30:00 GMT</pubDate>
             <description><![CDATA[This is the first sample blog post]]></description>
             <content:encoded><![CDATA[This is the first sample blog postt.]]></content:encoded>

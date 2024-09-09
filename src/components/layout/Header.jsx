@@ -380,9 +380,9 @@ const Header = () => {
                     id='nav-links'
                     activeclassname='active'
                     exact='true'
-                    className={` link-color ${router === '/contactus' ? 'navLinkActive' : ''}`}
+                    className={` link-color ${router === '/contact' ? 'navLinkActive' : ''}`}
                     aria-current='page'
-                    href='/contactus'
+                    href='/contact'
                   >
                     <FaEnvelope className='me-2' size={20} />
                     संपर्क करें

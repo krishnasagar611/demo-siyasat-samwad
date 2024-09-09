@@ -11,7 +11,6 @@ type Props = {}
 
 function ContactUscomp({}: Props) {
   return (
-    <div>
       <div>
         <Header />
         <Container>
@@ -29,7 +28,6 @@ function ContactUscomp({}: Props) {
         </Container>
         <Footer />
       </div>
-    </div>
   )
 }
 

@@ -1,110 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-    <loc>https://devserver.siyasatsamwad.com/404</loc>
-    <lastmod>2024-09-09T07:52:02.385Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//404</loc>
+    <lastmod>2024-09-09T09:11:17.822Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//</loc>
+    <lastmod>2024-09-09T09:11:17.823Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/loading</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//loading</loc>
+    <lastmod>2024-09-09T09:11:17.823Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/rss</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//rss</loc>
+    <lastmod>2024-09-09T09:11:17.823Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/aboutus</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//categories-news/[slug]</loc>
+    <lastmod>2024-09-09T09:11:17.823Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/all-breaking-news</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//breaking-news/[slug]</loc>
+    <lastmod>2024-09-09T09:11:17.823Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/categories-news/[slug]</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//all-breaking-news</loc>
+    <lastmod>2024-09-09T09:11:17.823Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/breaking-news/[slug]</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//aboutus</loc>
+    <lastmod>2024-09-09T09:11:17.823Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/contactus/page</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//e-paper</loc>
+    <lastmod>2024-09-09T09:11:17.823Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/e-paper</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//contact/page</loc>
+    <lastmod>2024-09-09T09:11:17.824Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/news/[slug]</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//news/[slug]</loc>
+    <lastmod>2024-09-09T09:11:17.824Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/news-notification</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//news-notification</loc>
+    <lastmod>2024-09-09T09:11:17.824Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/personal-notification</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//personal-notification</loc>
+    <lastmod>2024-09-09T09:11:17.824Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/tag/[slug]</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//tag/[slug]</loc>
+    <lastmod>2024-09-09T09:11:17.824Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/user-based-categories</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//user-based-categories</loc>
+    <lastmod>2024-09-09T09:11:17.824Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/video-news-view/[slug]</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//video-news-view/[slug]</loc>
+    <lastmod>2024-09-09T09:11:17.824Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/view-all/[slug]</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//[slug]</loc>
+    <lastmod>2024-09-09T09:11:17.824Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://devserver.siyasatsamwad.com/[slug]</loc>
-    <lastmod>2024-09-09T07:52:02.386Z</lastmod>
+    <loc>https://news-app-seven-lake.vercel.app//view-all/[slug]</loc>
+    <lastmod>2024-09-09T09:11:17.824Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

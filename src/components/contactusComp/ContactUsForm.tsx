@@ -42,7 +42,6 @@ export default function ContactUsForm() {
             We'd love to hear from you. Please fill out this form.
           </Card.Text>
           <Form onSubmit={handleSubmit(onSubmit)}>
-            {/* Name field */}
             <Form.Group className='mb-3'>
               <Form.Label>Name</Form.Label>
               <Form.Control type='text' placeholder='John Doe' {...register('name')} isInvalid={!!errors.name} />
@@ -50,7 +49,6 @@ export default function ContactUsForm() {
               <Form.Control.Feedback type='invalid'>{errors.name?.message as string}</Form.Control.Feedback>
             </Form.Group>
 
-            {/* Email field */}
             <Form.Group className='mb-3'>
               <Form.Label>Email</Form.Label>
               <Form.Control
@@ -62,7 +60,6 @@ export default function ContactUsForm() {
               <Form.Control.Feedback type='invalid'>{errors.email?.message as string}</Form.Control.Feedback>
             </Form.Group>
 
-            {/* Phone Number field */}
             <Form.Group className='mb-3'>
               <Form.Label>Phone Number</Form.Label>
               <Form.Control
@@ -74,7 +71,6 @@ export default function ContactUsForm() {
               <Form.Control.Feedback type='invalid'>{errors.phoneNumber?.message as string}</Form.Control.Feedback>
             </Form.Group>
 
-            {/* Message field */}
             <Form.Group className='mb-3'>
               <Form.Label>Message</Form.Label>
               <Form.Control
@@ -87,7 +83,6 @@ export default function ContactUsForm() {
               <Form.Control.Feedback type='invalid'>{errors.message?.message as string}</Form.Control.Feedback>
             </Form.Group>
 
-            {/* Submit button */}
             <Button variant='primary' type='submit' disabled={isSubmitting} className='w-100'>
               {isSubmitting ? 'Sending...' : 'Send Message'}
             </Button>
