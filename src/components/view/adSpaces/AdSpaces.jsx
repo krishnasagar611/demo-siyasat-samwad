@@ -1,5 +1,5 @@
 import React from 'react'
-import { placeholderImage } from 'src/utils'
+import { placeholderImage } from '../../../../src/utils'
 
 const AdSpaces = ({ ad_url, ad_img, style_web, }) => {
 

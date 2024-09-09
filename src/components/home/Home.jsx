@@ -2,9 +2,8 @@
 import { useSelector } from 'react-redux'
 import FeatureLayout from '../features-Style/FeatureLayout'
 import Layout from '../layout/Layout'
-import { settingsData } from 'src/store/reducers/settingsReducer'
+import { settingsData } from '../../store/reducers/settingsReducer'
 import Sidebar from '../features-Style/SideMenu'
-import NewsSection from '../features-Style/MidNavbar'
 import AddNews from '../features-Style/AddNews'
 import { Container, Row, Col } from 'react-bootstrap'
 import NewsFeed from '../features-Style/NewsFeed'
@@ -19,10 +18,10 @@ const Home = () => {
       {/* <FeatureLayout /> */}
       <Container>
         <Row>
-          <Col md={3}>
+          <Col md={2}>
             <Sidebar />
           </Col>
-          <Col md={6}>
+          <Col md={7}>
             <BreakingNewsSidebar />
             <NewsFeed/>
           </Col>

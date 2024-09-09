@@ -1,5 +1,5 @@
-import Api from 'src/api/AxiosInterceptors'
-import { GET_BREAKING_NEWS, SET_BREAKING_NEWS_VIEW } from 'src/utils/api'
+import Api from '../api/AxiosInterceptors'
+import { GET_BREAKING_NEWS, SET_BREAKING_NEWS_VIEW } from '../utils/api'
 
 export const AllBreakingNewsApi = {
   getBreakingNews: requestData => {

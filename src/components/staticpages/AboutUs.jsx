@@ -60,8 +60,7 @@ const AboutUs = () => {
 
     return (
         <Layout>
-            <BreadcrumbNav SecondElement={translate('aboutus')} />
-            <section className='morePagesSlugPage container'>
+            {/* <section className='morePagesSlugPage '>
                 <div className="row">
                     <div className="col-12">
                         <div className="contentWrapper">
@@ -87,7 +86,7 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </Layout>
     )
 }

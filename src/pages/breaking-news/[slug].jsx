@@ -1,9 +1,9 @@
 import axios from 'axios'
 import dynamic from 'next/dynamic'
-import Meta from 'src/components/seo/Meta'
-import { extractJSONFromMarkup } from 'src/utils'
-import { GET_BREAKING_NEWS } from 'src/utils/api'
-const BreakingNews = dynamic(() => import('src/components/newsType/BreakingNews/BreakingNews'), { ssr: false })
+import Meta from '../../components/seo/Meta'
+import { extractJSONFromMarkup } from '../../utils'
+import { GET_BREAKING_NEWS } from '../../utils/api'
+const BreakingNews = dynamic(() => import('../../components/newsType/BreakingNews/BreakingNews'), { ssr: false })
 
 // This is seo api
 const fetchDataFromSeo = async (id, language_id) => {

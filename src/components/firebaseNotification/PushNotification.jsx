@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react'
 import 'firebase/messaging'
 import { toast } from 'react-hot-toast'
 import { useSelector } from 'react-redux'
-import { locationData } from 'src/store/reducers/settingsReducer'
-import FirebaseData from 'src/utils/Firebase'
+import { locationData } from '../../store/reducers/settingsReducer'
+import FirebaseData from '../../../src/utils/Firebase'
 
 const PushNotificationLayout = ({ children }) => {
   const [notification, setNotification] = useState(null)

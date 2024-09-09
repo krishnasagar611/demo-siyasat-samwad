@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FaAngleDown } from "react-icons/fa6";
 
-import { translate, truncateText } from 'src/utils';
+import { translate, truncateText } from '../../../../src/utils';
 
 const ProfileDropDown = ({ userName, userData, logout, profileimg, profileimgError, handleClose, deleteAccount, userRole }) => {
 

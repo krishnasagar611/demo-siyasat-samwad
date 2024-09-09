@@ -1,17 +1,16 @@
 'use client'
 import React, { use, useEffect, useState } from 'react'
 import Layout from '../../components/layout/Layout.jsx'
-import BreadcrumbNav from 'src/components/breadcrumb/BreadcrumbNav.jsx'
+import BreadcrumbNav from '../../components/breadcrumb/BreadcrumbNav.jsx'
 import { translate, NoDataFound } from '../../utils'
 import { useRouter } from 'next/router.js'
-import { getpagesApi } from 'src/hooks/getPagesApi'
 import { useQuery } from '@tanstack/react-query'
-import { getLanguage } from 'src/utils/api'
+import { getLanguage } from '../../utils/api.jsx'
 import { selectCurrentLanguage } from '../../store/reducers/languageReducer'
 import { useSelector } from 'react-redux'
 // import NoDataFound from 'src/components/noDataFound/NoDataFound.jsx'
 import Skeleton from 'react-loading-skeleton'
-import { getMorePagesData, loadMorePages } from 'src/store/reducers/MorePagesReducers.js'
+import { getMorePagesData, loadMorePages } from '../../store/reducers/MorePagesReducers.js'
 
 const SocialPages = () => {
   const router = useRouter()

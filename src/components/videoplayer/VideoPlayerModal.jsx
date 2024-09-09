@@ -5,7 +5,7 @@ import Modal from 'react-bootstrap/Modal'
 import ReactPlayer from 'react-player'
 import { AiOutlineClose } from 'react-icons/ai'
 import VideoPlayer from './HLSPlayer'
-import { placeholderImage } from 'src/utils'
+import { placeholderImage } from '../../../src/utils'
 
 const VideoPlayerModal = props => {
 

@@ -1,5 +1,5 @@
-import Api from 'src/api/AxiosInterceptors'
-import { GET_COMMENT_BY_NEWS } from 'src/utils/api'
+import Api from '../api/AxiosInterceptors'
+import { GET_COMMENT_BY_NEWS } from '../utils/api'
 
 export const getCommentByNewsApi = {
   getCommentByNews: requestData => {

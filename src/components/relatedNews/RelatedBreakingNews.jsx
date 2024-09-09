@@ -4,8 +4,8 @@ import { useSelector } from 'react-redux'
 import { selectCurrentLanguage } from '../../store/reducers/languageReducer'
 import { placeholderImage, translate } from '../../utils'
 import Skeleton from 'react-loading-skeleton'
-import { AllBreakingNewsApi } from 'src/hooks/allBreakingNewsApi'
-import { getLanguage } from 'src/utils/api'
+import { AllBreakingNewsApi } from '../../hooks/allBreakingNewsApi'
+import { getLanguage } from '../../utils/api'
 import { useQuery } from '@tanstack/react-query'
 
 const RelatedBreakingNews = props => {

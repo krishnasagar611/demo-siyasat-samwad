@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic'
-import Meta from 'src/components/seo/Meta'
+import Meta from '../../components/seo/Meta'
 
-const UserBasedCategoriesNoSSR = dynamic(() => import('src/components/categories/UserBasedCategories'), { ssr: false })
+const UserBasedCategoriesNoSSR = dynamic(() => import('../../components/categories/UserBasedCategories'), { ssr: false })
 
 const index = () => {
   return (

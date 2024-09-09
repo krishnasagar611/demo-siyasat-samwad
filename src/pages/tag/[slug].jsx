@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
-import Meta from 'src/components/seo/Meta'
-const TagNewsview = dynamic(() => import('src/components/tag/TagNewsview'), { ssr: false })
+import Meta from '../../components/seo/Meta'
+const TagNewsview = dynamic(() => import('../../components/tag/TagNewsview'), { ssr: false })
 const index = () => {
   return (
     <>

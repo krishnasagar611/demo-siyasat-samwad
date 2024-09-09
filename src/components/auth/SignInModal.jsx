@@ -21,10 +21,10 @@ import { placeholderImage, translate } from '../../utils'
 import { settingsData } from '../../store/reducers/settingsReducer'
 import { useSelector } from 'react-redux'
 import { useRouter } from 'next/navigation'
-import FirebaseData from 'src/utils/Firebase'
+import FirebaseData from '../../../src/utils/Firebase'
 import toast from 'react-hot-toast'
-import { locationData } from 'src/store/reducers/settingsReducer'
-import { registerFcmTokenApi } from 'src/store/actions/campaign'
+import { locationData } from '../../store/reducers/settingsReducer'
+import { registerFcmTokenApi } from '../../store/actions/campaign'
 
 const SignInModal = props => {
   const { authentication, messaging } = FirebaseData()

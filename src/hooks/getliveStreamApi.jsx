@@ -1,5 +1,5 @@
-import Api from 'src/api/AxiosInterceptors'
-import { GET_LIVE_STREAMING } from 'src/utils/api'
+import Api from '../api/AxiosInterceptors'
+import { GET_LIVE_STREAMING } from '../utils/api'
 
 export const getLiveStreamingApi = {
   getLiveStreaming: requestData => {

@@ -11,17 +11,17 @@ import { selectCurrentLanguage } from '../../store/reducers/languageReducer';
 import { useSelector } from 'react-redux';
 import ReactPaginate from 'react-paginate';
 import { useQuery } from '@tanstack/react-query';
-import { getNotificationsApi } from 'src/hooks/getNotificationApi';
-import { getUser } from 'src/utils/api';
+import { getNotificationsApi } from '../../hooks/getNotificationApi';
+import { getUser } from '../../utils/api';
 import toast from 'react-hot-toast';
 import Layout from '../layout/Layout';
 // import NoDataFound from '../noDataFound/NoDataFound';
 import moment from 'moment-timezone';
-import { settingsData } from 'src/store/reducers/settingsReducer';
+import { settingsData } from '../../store/reducers/settingsReducer';
 import LoadMoreBtn from '../view/adSpaces/loadMoreBtn/LoadMoreBtn';
 
 const Notification = () => {
-  const [convertedData, setConvertedData] = useState([]); // Store converted dates separately
+  const [convertedData, setConvertedData] = useState([]); 
   let user = getUser();
   const currentLanguage = useSelector(selectCurrentLanguage);
   const [totalLength, setTotalLength] = useState(0);

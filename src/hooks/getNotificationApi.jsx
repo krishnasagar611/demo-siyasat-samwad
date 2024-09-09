@@ -1,5 +1,5 @@
-import Api from 'src/api/AxiosInterceptors'
-import { GET_NOTIFICATIONS, GET_USER_NOTIFICATION } from 'src/utils/api'
+import Api from '../api/AxiosInterceptors'
+import { GET_NOTIFICATIONS, GET_USER_NOTIFICATION } from '../utils/api'
 
 export const getNotificationsApi = {
   getNotifications: requestData => {

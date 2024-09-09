@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import { ListGroup, ListGroupItem, Spinner } from 'react-bootstrap'
 import { useRouter } from 'next/navigation'
-import { categoriesCacheData } from 'src/store/reducers/CatNavReducers'
 import * as IconsModule from 'react-icons/fa'
+import AppDownloadSection from './Footer'
+import { categoriesCacheData } from '../../store/reducers/CatNavReducers'
 
 const Sidebar = () => {
   const router = useRouter()
@@ -27,9 +28,8 @@ const Sidebar = () => {
   }
 
   return (
-    <div style={{ width: '100%',height:"auto", padding: '10px', position: 'sticky', top: '0' }}>
+    <div style={{ width: '100%', height: 'auto', padding: '10px', position: 'sticky', top: '80px' }}>
       {isLoading ? (
-        // Loader placeholders
         <ListGroup variant='flush'>
           {[...Array(5)].map((_, index) => (
             <ListGroupItem key={index} className='d-flex align-items-center menu-item'>
@@ -46,16 +46,17 @@ const Sidebar = () => {
               <ListGroupItem
                 key={category.id}
                 className='d-flex align-items-center menu-item'
-                style={{ cursor: 'pointer' }}
+                style={{ cursor: 'pointer',fontSize: '20px',fontWeight: 'bold' }}
                 onClick={() => handleCategoryClick(category)}
               >
-                <IconComponent style={{ marginRight: '10px', color: category.iconColor || '#FF5722' }} />
+                <IconComponent style={{ marginRight: '10px', color: category.iconColor || '#5e7fd8' }} />
                 <span>{category.category_name}</span>
               </ListGroupItem>
             )
           })}
         </ListGroup>
       )}
+      <AppDownloadSection />
     </div>
   )
 }

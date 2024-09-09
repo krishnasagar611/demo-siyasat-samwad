@@ -15,8 +15,8 @@ import { useSelector } from 'react-redux'
 import { settingsData } from '../../store/reducers/settingsReducer'
 import { useRouter } from 'next/navigation'
 import toast from 'react-hot-toast'
-import { locationData } from 'src/store/reducers/settingsReducer'
-import { registerFcmTokenApi } from 'src/store/actions/campaign'
+import { locationData } from '../../store/reducers/settingsReducer'
+import { registerFcmTokenApi } from '../../store/actions/campaign'
 
 const OTPModal = props => {
   const [OTP, setOTP] = useState('') // eslint-disable-next-line

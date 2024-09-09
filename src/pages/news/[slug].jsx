@@ -1,9 +1,9 @@
 import axios from 'axios'
 import dynamic from 'next/dynamic'
-import Meta from 'src/components/seo/Meta'
-import { extractJSONFromMarkup } from 'src/utils'
-import { GET_NEWS, access_key } from 'src/utils/api'
-const News = dynamic(() => import('src/components/newsType/News/News'), { ssr: false })
+import Meta from '../../components/seo/Meta'
+import { extractJSONFromMarkup } from '../../utils'
+import { GET_NEWS, access_key } from '../../utils/api'
+const News = dynamic(() => import('../../components/newsType/News/News'), { ssr: false })
 
 // This is seo api
 const fetchDataFromSeo = async (id, language_id) => {
@@ -39,33 +39,6 @@ const Index = ({ seoData, currentURL }) => {
     </>
   );
 }
-
-// let serverSidePropsFunction = null
-// if (process.env.NEXT_PUBLIC_SEO === 'true') {
-
-
-//   serverSidePropsFunction = async (context) => {
-
-//   // Retrieve the slug from the URL query parameters
-//   const { req } = context; // Extract query and request object from context
-
-//   const { params } = req[Symbol.for('NextInternalRequestMeta')].match;
-
-//   const currentURL = req[Symbol.for('NextInternalRequestMeta')].initURL;
-
-//   const {language_id} = req[Symbol.for('NextInternalRequestMeta')].initQuery;
-
-//   const seoData = await fetchDataFromSeo(params.slug,language_id)
-
-//   // Pass the fetched data as props to the page component
-//   return {
-//     props: {
-//       seoData,
-//       currentURL
-//     }
-//   }
-//   }
-// }
 
 let serverSidePropsFunction = null;
 if (process.env.NEXT_PUBLIC_SEO === "true") {

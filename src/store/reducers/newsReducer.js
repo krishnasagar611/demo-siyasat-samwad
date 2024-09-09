@@ -1,6 +1,6 @@
 import { createSelector, createSlice } from '@reduxjs/toolkit'
 import moment from 'moment'
-import { getNews } from 'src/utils/api'
+import { getNews } from '../../utils/api'
 import { apiCallBegan } from '../actions/apiActions'
 import { store } from '../store'
 

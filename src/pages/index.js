@@ -1,8 +1,8 @@
 import axios from 'axios'
 import dynamic from 'next/dynamic'
-import Meta from 'src/components/seo/Meta'
-import { GET_SETTINGS } from 'src/utils/api'
-const Home = dynamic(() => import('src/components/home/Home'), { ssr: false })
+import Meta from '../components/seo/Meta'
+import { GET_SETTINGS } from '../../src/utils/api'
+const Home = dynamic(() => import('../../src/components/home/Home'), { ssr: false })
 
 
 // This is seo api

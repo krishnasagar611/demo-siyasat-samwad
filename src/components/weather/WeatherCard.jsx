@@ -16,10 +16,10 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { useQuery } from '@tanstack/react-query'
 import Skeleton from 'react-loading-skeleton'
 import { useEffect } from 'react'
-import { loadLocation, locationData, settingsData } from 'src/store/reducers/settingsReducer'
+// import { loadLocation, locationData, settingsData } from 'src/store/reducers/settingsReducer'
 import toast from 'react-hot-toast'
-import { registerFcmTokenApi } from 'src/store/actions/campaign'
-import { isLogin, translate } from 'src/utils'
+// import { registerFcmTokenApi } from 'src/store/actions/campaign'
+// import { isLogin, translate } from 'src/utils'
 import { useRouter } from 'next/router'
 import LanguageDropdown from '../view/Dropdowns/LanguagesDropdown'
 

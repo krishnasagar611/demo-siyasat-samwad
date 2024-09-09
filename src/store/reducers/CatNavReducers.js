@@ -1,7 +1,7 @@
 // Import necessary modules
 import { createSelector, createSlice } from '@reduxjs/toolkit'
 import { store } from '../store'
-import { getCategoriesApi, getNews } from 'src/utils/api'
+import { getCategoriesApi, getNews } from '../../utils/api'
 import moment from 'moment'
 import { apiCallBegan } from '../actions/apiActions'
 

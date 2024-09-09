@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { translate } from 'src/utils'
+import { translate } from '../../utils'
 
 const CommonViewMoreDiv = ({ title, desc, link, styleSix }) => {
 

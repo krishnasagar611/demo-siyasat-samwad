@@ -1,9 +1,9 @@
 import { useQuery } from '@tanstack/react-query';
 import React, { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';
-import { getQuestionApi } from 'src/hooks/getQuestion';
-import { setQuestionResultApi } from 'src/store/actions/campaign';
-import { getLanguage, getUser } from 'src/utils/api';
+import { getQuestionApi } from '../../hooks/getQuestion';
+import { setQuestionResultApi } from '../../store/actions/campaign';
+import { getLanguage, getUser } from '../../utils/api';
 import Card from '../skeletons/Card';
 import { ProgressBar } from 'react-bootstrap';
 

@@ -1,6 +1,6 @@
-import Api from 'src/api/AxiosInterceptors'
-import { GET_FEATURE_SECTION_BY_ID } from 'src/utils/api'
-import { GET_FEATURE_SECTION } from 'src/utils/api'
+import Api from '../api/AxiosInterceptors'
+import { GET_FEATURE_SECTION_BY_ID } from '../utils/api'
+import { GET_FEATURE_SECTION } from '../utils/api'
 
 export const getFeatureSectionApi = {
   getFeatureSectionById: requestData => {

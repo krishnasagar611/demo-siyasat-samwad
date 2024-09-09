@@ -1,5 +1,5 @@
-import Api from 'src/api/AxiosInterceptors'
-import { GET_TAG } from 'src/utils/api'
+import Api from '../api/AxiosInterceptors'
+import { GET_TAG } from '../utils/api'
 
 export const getTagApi = {
   getTag: requestData => {

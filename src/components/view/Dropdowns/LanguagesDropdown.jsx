@@ -1,6 +1,5 @@
 import React from 'react';
 import { Dropdown, Menu } from 'antd';
-import { translate } from 'src/utils';
 import { FaAngleDown } from 'react-icons/fa';
 
 const LanguageDropdown = ({ currentLanguage, languagesData, languageChange,handleClose }) => {

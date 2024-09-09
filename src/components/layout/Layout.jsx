@@ -1,28 +1,28 @@
 'use client'
 import { useEffect } from 'react'
-import { laodSettingsApi, settingsData, loadSystemTimezone } from 'src/store/reducers/settingsReducer'
+import { laodSettingsApi, settingsData } from '../../store/reducers/settingsReducer'
 import { useDispatch, useSelector } from 'react-redux'
-import { selectCurrentLanguage, selectCurrentLanguageLabels } from 'src/store/reducers/languageReducer'
+import { selectCurrentLanguage, selectCurrentLanguageLabels } from '../../store/reducers/languageReducer'
 import { useRouter } from 'next/router'
 import Header from './Header'
 import CatNav from '../categories/CatNav'
 import WeatherCard from '../weather/WeatherCard'
 import SearchPopup from '../search/SearchPopup'
 import Footer from './Footer'
-import { protectedRoutes } from 'src/routes/routes'
+import { protectedRoutes } from '../../routes/routes'
 import toast from 'react-hot-toast'
-import { loadGetUserByIdApi, selectUser } from 'src/store/reducers/userReducer'
+import { loadGetUserByIdApi, selectUser } from '../../store/reducers/userReducer'
 import { usePathname } from 'next/navigation'
-import { categoriesUpdateLanguage, loadCategories } from 'src/store/reducers/CatNavReducers'
+import { categoriesUpdateLanguage, loadCategories } from '../../store/reducers/CatNavReducers'
 import CookiesComponent from '../cookies/CookiesComponent'
-import { getLiveStreamingApi } from 'src/hooks/getliveStreamApi'
+import { getLiveStreamingApi } from '../../hooks/getliveStreamApi'
 import { useQuery } from '@tanstack/react-query'
 import {
   checkBreakingNewsData,
   checkLiveNewsData,
   checkNewsDataSelector
-} from 'src/store/reducers/CheckNewsDataReducer'
-import { AllBreakingNewsApi } from 'src/hooks/allBreakingNewsApi'
+} from '../../store/reducers/CheckNewsDataReducer'
+import { AllBreakingNewsApi } from '../../hooks/allBreakingNewsApi'
 
 const Layout = ({ children }) => {
   const settings = useSelector(settingsData)
@@ -198,9 +198,7 @@ const Layout = ({ children }) => {
       {true ? (
         <>
           <SearchPopup />
-          {/* <WeatherCard /> */}
           <Header />
-          {/* <CatNav /> */}
           <div>{children}</div>
           <Footer />
         </>

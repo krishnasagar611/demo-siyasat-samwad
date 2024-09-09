@@ -3,7 +3,7 @@ import { createSelector, createSlice } from '@reduxjs/toolkit'
 import { store } from '../store'
 import moment from 'moment'
 import { apiCallBegan } from '../actions/apiActions'
-import { getPages } from 'src/utils/api'
+import { getPages } from '../../utils/api'
 
 // Initial state with some default data
 const initialState = {

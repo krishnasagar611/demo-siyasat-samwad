@@ -1,14 +1,14 @@
 // ** Store Imports
 import { Provider } from 'react-redux'
-import { store } from 'src/store/store'
+import { store } from '../store/store'
 import { Toaster } from 'react-hot-toast'
 import { Router } from 'next/router'
 import NProgress from 'nprogress'
-import PushNotificationLayout from 'src/components/firebaseNotification/PushNotification'
+import PushNotificationLayout from '../components/firebaseNotification/PushNotification'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import ThemeProvider from 'src/components/themeProvider/ThemeProvider'
-import InspectElement from 'src/components/inspect-element/InspectElement'
+import ThemeProvider from '../components/themeProvider/ThemeProvider'
+import InspectElement from '../components/inspect-element/InspectElement'
 
 // CSS File Here
 import 'bootstrap/dist/css/bootstrap.min.css'

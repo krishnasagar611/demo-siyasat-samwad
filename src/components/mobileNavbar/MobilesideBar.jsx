@@ -21,11 +21,11 @@ import { store } from '../../store/store'
 import usersvg from '../../../public/assets/images/user.svg'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { categoriesCacheData } from 'src/store/reducers/CatNavReducers'
+import { categoriesCacheData } from '../../store/reducers/CatNavReducers'
 import LanguageDropdown from '../view/Dropdowns/LanguagesDropdown'
 import ProfileDropDown from '../view/Dropdowns/ProfileDropDown'
 import { usePathname } from 'next/navigation'
-import { checkNewsDataSelector } from 'src/store/reducers/CheckNewsDataReducer'
+import { checkNewsDataSelector } from '../../store/reducers/CheckNewsDataReducer'
 import MorePagesDropDown from '../view/Dropdowns/MorePagesDropDown'
 
 const MobilesideBar = ({

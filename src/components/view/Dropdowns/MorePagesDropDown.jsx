@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { FaAngleDown } from "react-icons/fa6";
 
-import { translate } from 'src/utils';
+import { translate } from '../../../../src/utils';
 
 const MorePagesDropDown = ({handleClose}) => {
 

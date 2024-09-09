@@ -33,18 +33,16 @@ import { settingsData } from '../../store/reducers/settingsReducer'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { SetSearchPopUp } from '../../store/stateSlice/clickActionSlice'
 import { store } from '../../store/store'
-import FirebaseData from 'src/utils/Firebase'
+import FirebaseData from '../../../src/utils/Firebase'
 import { useQuery } from '@tanstack/react-query'
-import { getUserByIdApi } from 'src/hooks/getuserbyId'
-import { getUser } from 'src/utils/api'
-import { CategoriesApi } from 'src/hooks/categoriesApi'
+import { getUser } from '../../../src/utils/api'
 import toast from 'react-hot-toast'
-import { accountDeleteApi } from 'src/store/actions/campaign'
+import { accountDeleteApi } from '../../store/actions/campaign'
 import { Modal } from 'antd'
-import { loadCatNavData } from 'src/store/reducers/CatNavReducers'
-import { checkNewsDataSelector } from 'src/store/reducers/CheckNewsDataReducer'
+import { checkNewsDataSelector } from '../../store/reducers/CheckNewsDataReducer'
 import MorePagesDropDown from '../view/Dropdowns/MorePagesDropDown'
 import { usePathname } from 'next/navigation'
+import { FaHome, FaInfoCircle, FaNewspaper, FaEnvelope, FaFilePdf } from 'react-icons/fa'
 import ProfileDropDown from '../view/Dropdowns/ProfileDropDown'
 
 const { confirm } = Modal
@@ -275,7 +273,7 @@ const Header = () => {
   }
 
   return (
-    <div style={{ width: '100%', padding: '10px', position: 'sticky', top: '0',zIndex:10 }} className='Newsbar'>
+    <div style={{ width: '100%', padding: '10px', position: 'sticky', top: '0', zIndex: 10 }} className='Newsbar'>
       <div className='container'>
         <div className='navbar_content'>
           <div id='News-logo' className='News-logo'>
@@ -299,9 +297,10 @@ const Header = () => {
                     exact='true'
                     aria-current='page'
                     href='/'
-                    className={`headerDropdownItem link-color ${router === '/' ? 'navLinkActive' : ''}`}
+                    className={` link-color ${router === '/' ? 'navLinkActive' : ''}`}
                   >
-                    {translate('home')}
+                    <FaHome className='me-2' size={20} />
+                    होम
                   </Link>
                 </b>
               </li>
@@ -311,11 +310,12 @@ const Header = () => {
                     id='nav-links'
                     activeclassname='active'
                     exact='true'
-                    className={`headerDropdownItem link-color ${router === '/about-us' ? 'navLinkActive' : ''}`}
+                    className={` link-color ${router === '/aboutus' ? 'navLinkActive' : ''}`}
                     aria-current='page'
-                    href={`/about-us`}
+                    href={`/aboutus`}
                   >
-                    {translate('aboutus')}
+                    <FaInfoCircle className='me-2' size={20} />
+                    हमारे बारे में
                   </Link>
                 </b>
               </li>
@@ -329,11 +329,11 @@ const Header = () => {
                       id='nav-links'
                       activeclassname='active'
                       exact='true'
-                      className={`headerDropdownItem link-color ${router === '/live-news' ? 'navLinkActive' : ''}`}
+                      className={` link-color ${router === '/live-news' ? 'navLinkActive' : ''}`}
                       aria-current='page'
                       href='/live-news'
                     >
-                      {translate('livenews')}
+                      <FaNewspaper className='me-2' size={20} />
                     </Link>
                   </b>
                 </li>
@@ -348,17 +348,31 @@ const Header = () => {
                       id='nav-links'
                       activeclassname='active'
                       exact='true'
-                      className={`headerDropdownItem link-color ${
-                        router === '/all-breakingnews' ? 'navLinkActive' : ''
-                      }`}
+                      className={` link-color ${router === '/all-breaking-news' ? 'navLinkActive' : ''}`}
                       aria-current='page'
                       href='/all-breaking-news'
                     >
-                      {translate('breakingnews')}
+                      <FaNewspaper className='me-2' size={20} />
+                      ताजा खबर
                     </Link>
                   </b>
                 </li>
               ) : null}
+              <li id='NavHover' className='nav-item'>
+                <b>
+                  <Link
+                    id='nav-links'
+                    activeclassname='active'
+                    exact='true'
+                    className={` link-color ${router === '/e-paper' ? 'navLinkActive' : ''}`}
+                    aria-current='page'
+                    href='/e-paper'
+                  >
+                    <FaFilePdf className='me-2' size={20} />
+                    ई-पेपर
+                  </Link>
+                </b>
+              </li>
 
               <li id='NavHover' className='nav-item'>
                 <b>
@@ -366,22 +380,22 @@ const Header = () => {
                     id='nav-links'
                     activeclassname='active'
                     exact='true'
-                    className={`headerDropdownItem link-color ${router === '/contact-us' ? 'navLinkActive' : ''}`}
+                    className={` link-color ${router === '/contactus' ? 'navLinkActive' : ''}`}
                     aria-current='page'
-                    href='/contact-us'
+                    href='/contactus'
                   >
-                    {translate('contactus')}
+                    <FaEnvelope className='me-2' size={20} />
+                    संपर्क करें
                   </Link>
                 </b>
               </li>
 
-              <li>
+              {/* <li>
                 <div id='btnNotification' type='button' className='btn' onClick={actionSearch}>
                   <AiOutlineSearch size={23} />
                 </div>
-              </li>
+              </li> */}
             </ul>
-
             <SignInModal
               setIsLogout={setIsLogout}
               setisloginloading={setisloginloading}

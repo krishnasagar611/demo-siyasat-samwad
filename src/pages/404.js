@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic'
 import errorimage from '../../public/assets/images/error.svg'
 import Image from 'next/image'
 
-const Layout = dynamic(() => import('src/components/layout/Layout'), { ssr: false })
+const Layout = dynamic(() => import('../components/layout/Layout'), { ssr: false })
 const NotFound = () => {
   // client side rendering route get
   return (

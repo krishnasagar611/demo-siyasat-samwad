@@ -84,70 +84,8 @@ const Categories = () => {
   const lengthdata = (Data && Data.total) || 0
 
   return (
-    <Layout>
-      <BreadcrumbNav SecondElement='Categories'  />
-      {categoiresOnOff && categoiresOnOff.category_mode === '1' ? (
-        <div className='container my-5'>
-          {isLoading.loading ? (
-            <div className='row'>
-              {[...Array(3)].map((_, index) => (
-                <div className='col-md-4 col-12' key={index}>
-                  <Card isLoading={true} />
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className='row'>
-              {categories && categories?.length > 0 ? (
-                categories.map(element => (
-                  <div className='col-md-4 col-12 mb-4'>
-                    <Link
-                      id='cat-section-card'
-                      key={element.id}
-                      className='card'
-                      href={{
-                        pathname: `/categories-news/${element.slug}`,
-                        // query: {
-                        //   category_slug: element.slug
-                        // }
-                      }}
-                    >
-                      <img
-                        id='cat-section-card-image'
-                        src={element.image}
-                        className='categories card news image'
-                        alt={element.category_name}
-                        onError={placeholderImage}
-                      />
-                      <div id='cat-section-card-body' className='card-img-overlay'>
-                        <h5 id='cat-card-text' className='card-text mb-0'>
-                          {element.category_name}
-                        </h5>
-                        <button id='btn-cat-more' className='btn' type='button'>
-                          <IoArrowForwardCircleSharp size={40} />
-                        </button>
-                      </div>
-                    </Link>
-                  </div>
-                ))
-              ) : (
-                <>
-                  {NoDataFound()}
-                </>
-              )}
-              {totalData > dataPerPage && totalData !== categories.length ? (
-                <LoadMoreBtn handleLoadMore={handleLoadMore} loadMoreLoading={isLoading.loadMoreLoading} />
-              ) : null}
-            </div>
-          )}
-        </div>
-      ) : (
-        <>
-          {NoDataFound()}
-
-        </>
-      )}
-    </Layout>
+ <>
+ </>
   )
 }
 

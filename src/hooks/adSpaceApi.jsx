@@ -1,5 +1,5 @@
-import Api from 'src/api/AxiosInterceptors'
-import { GET_AD_SPACE_NEWS_DETAILS } from 'src/utils/api'
+import Api from '../api/AxiosInterceptors'
+import { GET_AD_SPACE_NEWS_DETAILS } from '../utils/api'
 
 export const getAdsSpaceNewsDetailsApi = {
   getAdsSpaceNewsDetails: requestData => {

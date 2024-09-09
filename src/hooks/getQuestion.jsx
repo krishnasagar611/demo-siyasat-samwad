@@ -1,6 +1,6 @@
-import Api from 'src/api/AxiosInterceptors'
-import { GET_QUESTION } from 'src/utils/api'
-import { GET_QUESTION_RESULT } from 'src/utils/api'
+import Api from '../api/AxiosInterceptors'
+import { GET_QUESTION } from '../utils/api'
+import { GET_QUESTION_RESULT } from '../utils/api'
 
 export const getQuestionApi = {
     getQuestion: requestData => {

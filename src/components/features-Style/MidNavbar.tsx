@@ -5,10 +5,10 @@ import Link from 'next/link'
 import { Card, Container, Row, Col } from 'react-bootstrap'
 import { FaFacebook, FaTwitter, FaShareAlt, FaNewspaper } from 'react-icons/fa'
 import { selectCurrentLanguage } from '../../store/reducers/languageReducer'
-import { AllBreakingNewsApi } from 'src/hooks/allBreakingNewsApi'
-import { getLanguage } from 'src/utils/api'
+import { AllBreakingNewsApi } from '../../../src/hooks/allBreakingNewsApi'
 import { useQuery } from '@tanstack/react-query'
 import { placeholderImage, translate } from '../../utils'
+import { getLanguage } from '../../utils/api'
 
 const BreakingNewsSidebar = () => {
   const router = useRouter()

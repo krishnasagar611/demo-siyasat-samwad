@@ -2,11 +2,11 @@
 import Link from 'next/link'
 import { placeholderImage, translate, truncateText } from '../../utils'
 import Skeleton from 'react-loading-skeleton'
-import { getLanguage } from 'src/utils/api'
+import { getLanguage } from '../../utils/api'
 import { useQuery } from '@tanstack/react-query'
-import { locationData } from 'src/store/reducers/settingsReducer'
+import { locationData } from '../../store/reducers/settingsReducer'
 import { useSelector } from 'react-redux'
-import { getNewsApi } from 'src/hooks/newsApi'
+import { getNewsApi } from '../../hooks/newsApi'
 
 const RelatedNewsSection = props => {
   const catid = props.Cid

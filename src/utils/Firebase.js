@@ -4,7 +4,7 @@ import { getMessaging, getToken, onMessage, isSupported } from 'firebase/messagi
 import firebase from "firebase/compat/app"
 import { getAuth } from "firebase/auth";
 import toast from 'react-hot-toast';
-import { loadFcmToken } from 'src/store/reducers/settingsReducer';
+import { loadFcmToken } from '../store/reducers/settingsReducer';
 
 
 const FirebaseData = () => {

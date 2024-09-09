@@ -1,12 +1,11 @@
 import axios from 'axios'
 import dynamic from 'next/dynamic'
-import Meta from 'src/components/seo/Meta'
-import { extractJSONFromMarkup } from 'src/utils'
-import { GET_WEB_SEO_PAGES } from 'src/utils/api'
+import Meta from '../../components/seo/Meta'
+import { extractJSONFromMarkup } from '../../utils'
+import { GET_WEB_SEO_PAGES } from '../../utils/api'
 
-const SocialPages = dynamic(() => import('src/components/staticpages/SocialPages'), { ssr: false })
+const SocialPages = dynamic(() => import('../../components/staticpages/SocialPages'), { ssr: false })
 
-// This is seo api
 const fetchDataFromSeo = async () => {
   try {
     const response = await axios.get(
